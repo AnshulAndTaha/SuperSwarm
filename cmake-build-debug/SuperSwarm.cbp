@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="SuperSwarm"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/tnil/Programming/personal/SuperSwarm/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j24 -f &quot;/home/tnil/Programming/personal/SuperSwarm/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j24 -f &quot;/home/tnil/Programming/personal/SuperSwarm/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j24 -f &quot;/home/tnil/Programming/personal/SuperSwarm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j24 -f &quot;/home/tnil/Programming/personal/SuperSwarm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="SuperSwarm">
+				<Option output="/home/tnil/Programming/personal/SuperSwarm/cmake-build-debug/SuperSwarm" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/tnil/Programming/personal/SuperSwarm/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/14.1.1/../../../../include/c++/14.1.1"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/14.1.1/../../../../include/c++/14.1.1/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/14.1.1/../../../../include/c++/14.1.1/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/14.1.1/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/14.1.1/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j24 -f &quot;/home/tnil/Programming/personal/SuperSwarm/cmake-build-debug/Makefile&quot;  VERBOSE=1 SuperSwarm"/>
+					<CompileFile command="/usr/bin/make -j24 -f &quot;/home/tnil/Programming/personal/SuperSwarm/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j24 -f &quot;/home/tnil/Programming/personal/SuperSwarm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j24 -f &quot;/home/tnil/Programming/personal/SuperSwarm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="SuperSwarm/fast">
+				<Option output="/home/tnil/Programming/personal/SuperSwarm/cmake-build-debug/SuperSwarm" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/tnil/Programming/personal/SuperSwarm/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/14.1.1/../../../../include/c++/14.1.1"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/14.1.1/../../../../include/c++/14.1.1/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/14.1.1/../../../../include/c++/14.1.1/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/14.1.1/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/14.1.1/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j24 -f &quot;/home/tnil/Programming/personal/SuperSwarm/cmake-build-debug/Makefile&quot;  VERBOSE=1 SuperSwarm/fast"/>
+					<CompileFile command="/usr/bin/make -j24 -f &quot;/home/tnil/Programming/personal/SuperSwarm/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j24 -f &quot;/home/tnil/Programming/personal/SuperSwarm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j24 -f &quot;/home/tnil/Programming/personal/SuperSwarm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/tnil/Programming/personal/SuperSwarm/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j24 -f &quot;/home/tnil/Programming/personal/SuperSwarm/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j24 -f &quot;/home/tnil/Programming/personal/SuperSwarm/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j24 -f &quot;/home/tnil/Programming/personal/SuperSwarm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j24 -f &quot;/home/tnil/Programming/personal/SuperSwarm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/tnil/Programming/personal/SuperSwarm/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j24 -f &quot;/home/tnil/Programming/personal/SuperSwarm/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j24 -f &quot;/home/tnil/Programming/personal/SuperSwarm/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j24 -f &quot;/home/tnil/Programming/personal/SuperSwarm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j24 -f &quot;/home/tnil/Programming/personal/SuperSwarm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/tnil/Programming/personal/SuperSwarm/main.cpp">
+			<Option target="SuperSwarm"/>
+		</Unit>
+		<Unit filename="/home/tnil/Programming/personal/SuperSwarm/managers/map.cpp">
+			<Option target="SuperSwarm"/>
+		</Unit>
+		<Unit filename="/home/tnil/Programming/personal/SuperSwarm/managers/map.h">
+			<Option target="SuperSwarm"/>
+		</Unit>
+		<Unit filename="/home/tnil/Programming/personal/SuperSwarm/managers/server.cpp">
+			<Option target="SuperSwarm"/>
+		</Unit>
+		<Unit filename="/home/tnil/Programming/personal/SuperSwarm/managers/server.h">
+			<Option target="SuperSwarm"/>
+		</Unit>
+		<Unit filename="/home/tnil/Programming/personal/SuperSwarm/managers/stateTracker.cpp">
+			<Option target="SuperSwarm"/>
+		</Unit>
+		<Unit filename="/home/tnil/Programming/personal/SuperSwarm/managers/stateTracker.h">
+			<Option target="SuperSwarm"/>
+		</Unit>
+		<Unit filename="/home/tnil/Programming/personal/SuperSwarm/robots/beacon/beacon.cpp">
+			<Option target="SuperSwarm"/>
+		</Unit>
+		<Unit filename="/home/tnil/Programming/personal/SuperSwarm/robots/beacon/beacon.h">
+			<Option target="SuperSwarm"/>
+		</Unit>
+		<Unit filename="/home/tnil/Programming/personal/SuperSwarm/robots/miner/miner.cpp">
+			<Option target="SuperSwarm"/>
+		</Unit>
+		<Unit filename="/home/tnil/Programming/personal/SuperSwarm/robots/miner/miner.h">
+			<Option target="SuperSwarm"/>
+		</Unit>
+		<Unit filename="/home/tnil/Programming/personal/SuperSwarm/robots/robotBase.cpp">
+			<Option target="SuperSwarm"/>
+		</Unit>
+		<Unit filename="/home/tnil/Programming/personal/SuperSwarm/robots/robotBase.h">
+			<Option target="SuperSwarm"/>
+		</Unit>
+		<Unit filename="/home/tnil/Programming/personal/SuperSwarm/robots/transport/transporter.cpp">
+			<Option target="SuperSwarm"/>
+		</Unit>
+		<Unit filename="/home/tnil/Programming/personal/SuperSwarm/robots/transport/transporter.h">
+			<Option target="SuperSwarm"/>
+		</Unit>
+		<Unit filename="/home/tnil/Programming/personal/SuperSwarm/utility/node.cpp">
+			<Option target="SuperSwarm"/>
+		</Unit>
+		<Unit filename="/home/tnil/Programming/personal/SuperSwarm/utility/node.h">
+			<Option target="SuperSwarm"/>
+		</Unit>
+		<Unit filename="/home/tnil/Programming/personal/SuperSwarm/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

@@ -4,14 +4,20 @@ project(SuperSwarm)
 set(CMAKE_CXX_STANDARD 17)
 
 add_executable(SuperSwarm main.cpp
-        managers/Map.cpp
-        managers/Map.h
-        managers/StateTracker.cpp
-        managers/StateTracker.h
-        managers/Server.cpp
-        managers/Server.h
+        managers/map.cpp
+        managers/map.h
+        managers/stateTracker.cpp
+        managers/stateTracker.h
+        managers/server.cpp
+        managers/server.h
         robots/robotBase.cpp
         robots/robotBase.h
-        robots/beacon/drone.cpp
-        robots/beacon/drone.h
+        robots/beacon/beacon.cpp
+        robots/beacon/beacon.h
+        robots/miner/miner.cpp
+        robots/miner/miner.h
+        robots/transport/transporter.cpp
+        robots/transport/transporter.h
+        utility/node.cpp
+        utility/node.h
 )

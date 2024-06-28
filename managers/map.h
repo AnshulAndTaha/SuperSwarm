@@ -1,11 +1,13 @@
 #ifndef MAP_H
 #define MAP_H
 
+#include <vector>
 
+#include "../utility/node.h"
 
 class Map {
-public:
-
+private:
+    std::vector<Node> nodeVector;
 };
 
 

@@ -3,23 +3,27 @@
 
 #include <utility>
 
-class robotBase {
+#include "../utility/node.h"
+
+class RobotBase : Node {
 public:
+    RobotBase();
     std::pair<double, double> getCurrentCord();
 
-    void setCurrentCord(std::pair<double, double> cord);
+    virtual ~RobotBase() = default;
+
+    void setCoord(const std::pair<double, double>& coord);
 
     std::pair<double, double> getDesiredCord();
 
-    void setDesiredCord(std::pair<double, double> cord);
+    void setDesiredCord(const std::pair<double, double>& cord);
 
-    virtual void update();
+    double getDist(RobotBase& robot);
 
-    virtual void doTask();
-
+    double getAngle(RobotBase& robot);
 private:
-    std::pair<double, double> currentCord = std::make_pair(0.0, 0.0);
-    std::pair<double, double> desiredCord = currentCord;
+    Node* objNode;
+    std::pair<double, double> desiredCord = std::make_pair(0,0);
 };
 
 
